@@ -1,6 +1,0 @@
-[build]
-target-dir = "bin"
-
-[alias]
-# Repository chores; see crates/xtask. `cargo xtask rm <path>` replaces `rm -rf`.
-xtask = "run --quiet --package xtask --"
